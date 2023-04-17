@@ -1,0 +1,178 @@
+/* Estilos para servicios, nosotros y blog*/
+
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&family=Poppins:wght@700&display=swap');
+
+body {
+  font-family: 'Amiko';
+}
+
+.page-title {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Poppins';
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.btn {
+  color: #000000;;
+  border-radius: 0;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #cfb08d;
+}
+
+.btn-goTest {
+  background-color: #ECB562;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+
+
+/* Servicios */
+
+.servicio-title {
+  color: #DC8D16;
+  font-weight: bold;
+}
+
+.servicio-card {
+  background-color: #D9D9D933;
+  margin-bottom: 35px;
+  border-radius: 0;
+  border: none;
+}
+
+.servicio-card img {
+  max-width: 35%;
+  object-fit: contain;
+}
+
+
+
+/* Nosotros */
+
+.nosotros-title {
+  color: #DC8D16;
+}
+
+.nosotros-card {
+  background: none;
+  margin: 10px 100px 35px 100px;
+  border-radius: 0;
+  border: none;
+}
+
+.nosotros-card img {
+  max-width: 50%;
+  object-fit: contain;
+}
+
+
+/* Nosotros: Equipo */
+
+.team-subtitle {
+  color: #DC8D16;
+  text-align: center;
+  margin-top: 85px;
+  margin-bottom: 20px;
+}
+
+.doctor-card {
+  background: none;
+  margin: 10px 25px 30px 25px;
+  padding: 0px 0px 0px 0px;
+  border-radius: 0;
+  border: none;
+}
+
+.doctor-img-container {
+  margin: 10px 40px 0px 40px;
+}
+
+.doctor-name {
+  color: #DC8D16;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+/* Blog */
+
+.blog-subtitle {
+  color: #ECB562;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.name-article {
+  color: #000000;
+  font-weight:bold;
+  text-align: justify;
+}
+
+.article-img-container {
+  margin: 10px;
+}
+
+.article-card {
+  background-color: rgba(217, 217, 217, 0.53);
+  margin: 0px 25px 30px 25px;
+  padding: 0px 0px 0px 0px;
+  border-radius: 0;
+  border: none;
+}
+
+.btn-article {
+  background-color: rgba(220, 141, 22, 0.67);
+}
+
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+  .servicio-card, .nosotros-card, .doctor-card, .article-card {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .team-subtitle, .blog-subtitle {
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .doctor-name {
+    font-size: 19px;
+  }
+}

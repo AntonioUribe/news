@@ -1,0 +1,12 @@
+
+.rounded-pill{
+    font-family: 'Amiko', sans-serif;
+}
+.badge{
+    font-family: 'Amiko', sans-serif;
+}
+.orange-bg {
+    height: calc(3vh + 5%);
+    /* la altura será el 30% del alto de la pantalla más el 70% restante */
+    background-image: linear-gradient(to bottom, #ECB562 7.24%, white 7.24%);
+}
