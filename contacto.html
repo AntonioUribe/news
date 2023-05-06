@@ -17,18 +17,16 @@
 <body class="orange-bg">
   <header style="background: #fbfbfb;">
     <nav class="navbar navbar-light navbar-expand-md py-3" style="color: var(--bs-navbar-disabled-color);margin: 9px;">
-      <div class="container"><a class="navbar-brand d-flex align-items-center"
-          href="/home.html"><span
-            class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg
-              xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16"
-              class="bi bi-bezier">
-              <path fill-rule="evenodd"
-                d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5v-1zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z">
-              </path>
-              <path
-                d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z">
-              </path>
-            </svg></span><span>Dr. Knee</span></a><button data-bs-toggle="collapse" class="navbar-toggler"
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="/home.html">
+          <span
+            class="d-flex justify-content-center align-items-center me-2">
+            <img src="assets/imagen/logo.png" alt="logo" class="logo">
+          </span>
+          <span class="logo-text">
+            D &nbsp;R . &nbsp;K &nbsp;N &nbsp;E &nbsp;E
+          </span>
+        </a><button data-bs-toggle="collapse" class="navbar-toggler"
           data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span
             class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-2">
@@ -87,8 +85,9 @@
           <p class="container" style="text-align: center;"><img style="height: 60px; "
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEU0lEQVR4nO2aW6hVVRSGl0fLo5jkLSUrRc1b4kOZREkPUkYGaR4zDHvyJbykEnqsIJUMMdQQMohI6SGECA5EoEX4oIVyNDIjU9K83xXRFPHWF4P9L5xs19lrrrXnam/BHzbncPa//jHGmnOOOeaYJ4ruojKAe4H+wEh97Pd7onoH0BGYBHwO7AGuczvsb7uBz4AJdRUY0BNYCpxLcPoQ8BuwCzgM3CjjnAYWAd1qGUA7YCZw3nFsO/A28LhNrTZG7UmgGdjpPHcWmG6atRiFDY4jPwPP5NAZq+BjtAD3F+P17cb7aQ3Eb3JSgJF9HbggTZuGD4bzONnoA8BeGbSfQwJqD3Ze0F9mK5R20vyOp0Er0LUAGz2UHAybgQ5RAUY+loGjRQ49pf3Gspnhg9DiTyh1XrOsE1Q82d6zjr3hIYV/0Bv6NMMz3bVBvgXMAZps6mR4fp1sfpvb8YTRMFwC+ngmhLVt7Oz2lr/01HkYuAL8C4wIEcgncmKl5/zeL7458BOwWh9bvDf13QFgQAbbq6IAOf6ExEamcDsA28Q9CYxJ4Dzt6LWmZSVKVYDhcLWBDIszlQd3irjXKyUEYJQz7V7zeJGnxH00bxwmNFUi33hw45JlvQd3vbgbPbgt4k7J4nu5yPsSWZrCaw9cFHeyh+6r4toz7VO4y8R9L08M5Zvg3BRebyczpZYtwFCH3zuFO8832VQSWSORGSm8Ib6OZQ0cmCHemjwxxCLLJdLskfNj9PfQHeDw+6Zw3xFvWZ4YYpFmn2EFGp1M9JyH7jhxrQTpmMJdJe6CPDHEIq9kyC47xF3uwV0hbqsH93txJ2bxvVxkkETOAA0p3IXOYatnBV4v53xf8S0DDdIzDKomkHYq2w2jPIrEuPz+EeiSwLkP2CTOqbSmA7d29iO5g3DErABM3UvEfUnzHnVNbJRe0JpYqL/Fa2O8h96H4n8RIpDxEjuYNr3EH+c4nARrET3vodMgruHFEIFYMXhcgk2ez3RSeWOjuVELdq2aDJ08NZpk80SwIy+wRKI7/4/eE6W1GWfBxaGbAnawMrwcTLhtexNl67JludDiKyX+i89aqcJOg2xUV19VMNDNyf8Va68q7cySjfNZzvhZjcyWEesKPlSAfl+n4zgrtH75sNvZ2/BdAfot0t5a5PR1zxLW3TC8EVB3mjRNe2go3ciztP4nhFH1BkzL8G4YL/2nWFyV/g50rkKr0bkr2VRIv9ejERcXlOuq0LGGneFIYR14DyeeAq7KkflVTNFreS6KgsI5U9/McvhRXzjuPL4Z1QO4tetfSju3iD9a5Yfho6heQKnI+8o5TT5WgTvCOfV9Xfh+kTP7bJGDx5Ka1MBAfYc21saoHgF0VXMaHYoeKSs//tZ3v9b0bt0Hdr3sVK971Yyz6+w/nFvbYorBgvaYP+X4DueQtLtme0VeaCTi62bDvsLvzwv+54JD+vSL7mRQylQDa+1HdKfgP+oomAzmZTnDAAAAAElFTkSuQmCC">
           </p>
-          <p style="text-align: center;">Albino Espinoza poniente 1136 centro de monterrey (a una cuadra de hospital San
-            Vicente y San Jorge)</p>
+          <p style="text-align: center;">
+            Albino Espinosa poniente 1136 Centro de Monterrey (a una cuadra de Hospital San Vicente y San Jorge)
+          </p>
 
           <p class="container" style="text-align: center;"><img style="height: 60px;"
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADY0lEQVR4nO2ay29NURTGT1GKpqVpOzKrpkT68CoT9fgHxIDyjxhSBpRWtRKKAROJgahGiZiYiBGR0kdIOjEwqVY9k77iJ9v9dnp6UOexT3si9xvdm7v3t9Z3ztp7r7X29bw88shjUQCsAvYDp4F7wDDwEZgGpvR5COgBWoC9wEovKwC2A9eBT0SHEdcNNCylgG3A44Bjr4DzwBFgC1DhG18G1ALNwAVgwDfvB/AAqFtMAauBLmBWTkwAbUB1DK5NQCfwWVwzQDtQlI73c4ZrgNcyamK/FVjvgLdMD2da3C+BKjde/25sFzAmQyYs6lOwsQN4Ixuj5nsaIr7KwB1grVMD820VAw9l64szMQon+yZuAMucEC9scwVwy/dmqlwsbLsm7sYRATwDnsYUc9+3ZuJvAFqASMyamBy/EHNuCfBWFO1JzgmzxU6a/T8WSUIhAT9mYvnhO+zORZ7sUEggMvq8GGmHTSFKIk1OR0g58E0ZQPhtX7mTQWsSB1wJMQAuiuqKFyGLtQlgVYaE1IrKHAWFYSaYVNzgeVLjLoUYAIOi2+P9C6onnIRVCkI6RXcizOBeDT6YQSHN9nAOM9hUdgabMyikQXQDYQbbvKo4g0LKRTcaZrCpr3GVHFohwCWzSJPwkttRDSbDCjEHT0FcgwG+J8zH+7iiiCjEhlZpEgE+vgLVM6aEffcHUQcicFVo3ocoi70mqYi/iNqt5oMVdTzC/K2aMxhl+z2U1PEQojZEnHNMvvWEGXxKg894GQO5tWVwMszgfRr8wssYmAv7prA7w4R2ro1eRgDUScR46FYrcE2TznoZAXPFVXfU8hKl8+tS9TCcP5XAd0VJtD4x8MhFqesCwOVYpa4vQZtRGzN28yEpgMZEzYdAeTnkKomMaL8UGJEPbUmIioB+ewgBy516urDtQl94J2vQibDa5DYivLkYYsiJuO2sZRqIU9vE7k25iV3qexPG5k7XBhp9b2Y4jesycjZGfG/CrYhAmNk1Y3aRDkcXPZXaYmdTv+gJbAAdEmLvMNrj1PhKO7p02NmHk/7VW8CJel3ImNPWol8iD+t3c6W2UvlbueqJo3LeJoCIo28pzytb7FxVnzgqxpf8ejoIPfkm/RmgR13BMfUApvR5QBdGLarZs/OHgTzy+M/xE70UaTJ8JBv+AAAAAElFTkSuQmCC">
@@ -156,8 +155,9 @@
             </p>
           </div>
           <div class="col">
-            <p style="text-align: start;">Albino Espinoza poniente 1136 centro de monterrey (a una cuadra de hospital
-              San Vicente y San Jorge)</p>
+            <p style="text-align: start;">
+              Albino Espinosa poniente 1136 Centro de Monterrey (a una cuadra de Hospital San Vicente y San Jorge)
+            </p>
           </div>
         </div>
       </div>
